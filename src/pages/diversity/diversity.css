@@ -1,0 +1,135 @@
+#diversity_showcase {
+  position: relative;
+  background: url("../../assets//images/diverse-friends-students.jpg") no-repeat
+    center center/cover;
+  min-height: 70vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 0;
+}
+
+#diversity_showcase:after {
+    content: "";
+    position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.diversity_showcase_wrapper {
+    max-width: 80%;
+    margin: auto;
+}
+
+#diversity_showcase p {
+    position: relative;
+    z-index: 1;
+    font-size: 3rem;
+    color: #f4f4f4;
+    padding-top: 1rem;
+    margin-top: 5rem;
+}
+
+
+#diversity_wrapper {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 3rem;
+    margin: 5rem auto;
+}
+
+.diversity_container {
+    max-width: 80%;
+    margin: auto;
+}
+
+#diversity_wrapper .left {
+    max-width: 60%;
+}
+
+#diversity_wrapper .left p {
+    line-height: 1.3;
+    padding-bottom: 1rem;
+}
+
+#diversity_wrapper .left p:nth-child(1){
+    margin-bottom: -0.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--primary_color);
+    padding-bottom: 0;
+}
+
+#diversity_wrapper .left p:nth-child(2){
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    line-height: 1.2;
+    color: var(--primary_color);
+    padding-bottom: 0;
+}
+
+#diversity_wrapper .left p:nth-child(3){
+    color: var(--primary_color);
+}
+
+#diversity_wrapper .right img {
+    margin-bottom: 5rem;
+}
+
+#diversity_wrapper .right .head {
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: var(--primary_color);
+}
+
+/* =======MEDIA QUERIES======= */
+@media screen and (max-width:1050px) {
+    #diversity_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #diversity_wrapper .left,
+    #diversity_wrapper .right {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #diversity_showcase {
+        min-height: 35vh;
+        align-items: center;
+      }
+    #diversity_showcase p {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .diversity_container {
+        max-width: 100%;
+        padding: 0 2rem;
+    }
+
+    #diversity_wrapper .left p:nth-child(1){
+        font-size: 1rem;
+        margin-bottom: -0.2rem;
+    }
+
+    #diversity_wrapper .left p:nth-child(2){
+        font-size: 1.7rem;
+        margin-bottom: 0.5rem;
+    }
+
+    #diversity_wrapper .left p:nth-child(3){
+        font-size: 1.1rem;
+    }
+
+    #diversity_wrapper .right img {
+        margin-bottom: 3rem;
+    }
+    
+    #diversity_wrapper .right .head {
+        font-size: 1.5rem;
+    }
+}
