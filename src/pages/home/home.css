@@ -48,6 +48,7 @@
 
 #home .home_swiper_background .swiper .left .text {
   width: 500px;
+  margin-bottom: 0.7rem;
   font-size: var(--primary_font);
 }
 

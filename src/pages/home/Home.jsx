@@ -48,13 +48,16 @@ function Home() {
                   dedicated team is here to champion your legal needs." Thank
                   you!
                 </p>
+                <div
+                  data-aos="fade-up"
+                  data-aos-easing="ease-in"
+                  data-aos-duration="1200"
+                >
                 <Link 
-                data-aos="fade-up"
-                data-aos-easing="ease-in"
-                data-aos-duration="1200"
                 className="btn_main" to="/the-firm">
                   Learn more
                 </Link>
+                </div>
               </div>
               <div
               data-aos="zoom-in"

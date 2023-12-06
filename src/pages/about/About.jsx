@@ -11,7 +11,7 @@ import teamTwo from "../../assets/images/team2.jpg";
 import teamFour from "../../assets/images/team4.jpg";
 import teamThree from "../../assets/images/team3.jpg";
 import teamFive from "../../assets/images/team5.jpg";
-import testimonialImage1 from "../../assets/images/good-deal-right-corner-confident-pleasant-friendly-looking-african-american-gorgeous-woman-with-afro-haircut-asking-check-out-visit-store-page-pointing-finger-left-smiling-looking-camera.jpg";
+import testimonialImage1 from "../../assets/images/confident-african-american-woman.jpg";
 import testimonialImage2 from "../../assets/images/team.jpg";
 
 import SquareCard from "../../components/squareCard/SquareCard";
