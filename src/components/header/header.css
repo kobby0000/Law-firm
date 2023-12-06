@@ -14,7 +14,7 @@
 
 #header .header_wrapper .left .header_logo {
   display: block;
-  width: 150px;
+  width: 120px;
   color: #fff;
   padding: 1rem;
 }
@@ -35,13 +35,14 @@
   font-family: 'Roboto', sans-serif;
   list-style: none;
   color: #f4f4f4;
+  font-size: var(--primary_font);
 }
 
 #header .header_wrapper .right ul li a {
   text-decoration: none;
   color: #f4f4f4;
   transition: opacity var(--transition);
-  font-size: 1.2rem;
+  font-size: var(--primary_font);
   padding: 0.5rem;
 }
 
@@ -56,7 +57,7 @@
   cursor: pointer;
   transition: var(--transition);
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: var(--primary_font);
   padding: 0.5rem;
 }
 
@@ -106,7 +107,7 @@
 #header .header_wrapper .right .nav_sub a {
   color:#f4f4f4;
   margin: 1rem 0;
-  font-size: 1.2rem;
+  font-size: var(--primary_font);
   transition: var(--transition);
 }
 
@@ -128,7 +129,7 @@
 /* ======= MEDIA QUERIES =======*/
 
 /* ======= HUMBURGER MENU  (max-width: 850px) ======= */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1400px) {
   #header {
     padding-bottom: 0;
   }
