@@ -128,19 +128,21 @@
 /* ======= MEDIA QUERIES =======*/
 
 /* ======= HUMBURGER MENU  (max-width: 850px) ======= */
-@media screen and (max-width: 1420px) {
+@media screen and (max-width: 900px) {
   #header {
     padding-bottom: 0;
   }
 
   #header .header_wrapper {
-    flex-direction: column;
+    max-width: 100%;
+    /* flex-direction: column; */
     /* gap: 2rem; */
   }
 
   #header .header_wrapper .left {
     align-self: flex-start;
     margin-top: 1rem;
+    padding-left: 2rem;
   }
 
   #header .header_wrapper .left .header_logo {
