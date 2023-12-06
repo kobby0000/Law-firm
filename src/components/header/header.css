@@ -136,7 +136,7 @@
 
   #header .header_wrapper {
     max-width: 100%;
-    /* flex-direction: column; */
+    flex-direction: column;
     /* gap: 2rem; */
   }
 
