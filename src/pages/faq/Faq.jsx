@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./faq.css";
+import ScrollToTop from '../../components/scollToTop/ScrollToTop';
 
 const faqData = [
   {
@@ -57,6 +58,7 @@ return (
         </div>
       ))}
     </div>
+    <ScrollToTop />
     </div>
   )
 }

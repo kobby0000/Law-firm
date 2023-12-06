@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact.css";
+import ScrollToTop from "../../components/scollToTop/ScrollToTop";
 
 function Contact() {
   return (
@@ -49,6 +50,7 @@ function Contact() {
         </div>
         </div>
       </div>
+      <ScrollToTop />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import React from "react";
 import "./natural.css";
 import ContactFormat from "../../components/contectFormat/ContactFormat";
 import miningImg from "../../assets/images/mining.jpg";
+import ScrollToTop from "../../components/scollToTop/ScrollToTop";
 
 function natural() {
   return (
@@ -60,6 +61,7 @@ function natural() {
           <p>Maintain meticulous records and documentation throughout the process, facilitating transparency, auditability, and the ability to respond to regulatory inquiries or legal challenges.</p>
         </div>
       </ContactFormat>
+      <ScrollToTop />
     </div>
   );
 }

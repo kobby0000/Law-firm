@@ -2,6 +2,7 @@ import React from 'react';
 import "./contruction.css";
 import ContactFormat from '../../components/contectFormat/ContactFormat';
 import constructionImg from "../../assets/images/civil-engineer-construction-worker.jpg"
+import ScrollToTop from '../../components/scollToTop/ScrollToTop';
 
 function Contruction() {
   return (
@@ -31,6 +32,7 @@ function Contruction() {
           </p>
         </div>
       </ContactFormat>
+      <ScrollToTop />
     </div>
   )
 }
